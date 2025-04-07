@@ -70,3 +70,81 @@ Gunakan dengan tanggung jawab, karena sendal bisa nyepak balik kalau salah langk
 ```bash
 git clone https://github.com/sendaljepitid/sendalint.git
 cd sendalint
+
+```
+
+### 2. Install Dependency
+
+Pastikan kamu menggunakan Python 3.7 ke atas. Lalu install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Isi `requirements.txt`:
+```
+requests
+beautifulsoup4
+colorama
+tqdm
+```
+
+---
+
+## 🧪 Cara Penggunaan
+
+### Basic Scan
+
+```bash
+python sendalint.py --url https://target.com
+```
+
+### Gunakan Wordlist Kustom
+
+```bash
+python sendalint.py --url https://target.com --wordlist mywordlist.txt
+```
+
+### Atur Jumlah Maksimum Link yang Di-crawl
+
+```bash
+python sendalint.py --url https://target.com --limit 30
+```
+
+---
+
+## 📁 Contoh Output
+
+- `vuln_result.txt`: hasil kerentanan dalam bentuk list.
+- `vuln_result.json`: hasil lengkap termasuk headers & link yang di-scan.
+
+---
+
+## ⚠️ Catatan
+
+- Gunakan tools ini hanya untuk **tujuan edukasi dan pentest legal**.
+- Jangan gunakan terhadap sistem tanpa izin. Ini bisa melanggar hukum!
+
+---
+
+## 🙌 Kontribusi
+
+Pull request sangat diterima! Jika kamu punya saran fitur baru atau ingin menambahkan payload, langsung saja fork dan kirim PR.
+
+---
+
+## 🧑‍💻 Author
+
+Budi Wibowo - [LinkedIn]([https://www.linkedin.com/in/budiwibowo-/])
+
+---
+
+## 📜 License
+
+MIT License – bebas digunakan, mohon sertakan atribusi jika dibagikan ulang.
+```
+
+---
+
+
+
