@@ -36,19 +36,37 @@ DILARANG digunakan pada sistem tanpa izin.
 Gunakan dengan tanggung jawab, karena sendal bisa nyepak balik kalau salah langkah.
 
 ---
+- XSS
+- SQL Injection
+- LFI (Local File Inclusion)
+- Open Redirect
+- HTML Injection
+- .env Leak
+- Directory Listing
+- Admin Panel Exposure
+- Security Header Check
+
+> 🔍 Cocok untuk edukasi, lab praktikum keamanan siber, atau pentesting awal secara ringan dan cepat.
+
+---
+
+## ✨ Fitur Unggulan
+
+- ✅ CLI interface untuk penggunaan cepat
+- 🌐 Crawling link dalam domain
+- 🔍 Scanner payload XSS, SQLi, Open Redirect, LFI, HTML Injection
+- 📁 Scanner direktori dari wordlist
+- 🔐 Pendeteksi admin panel login
+- 🔓 Deteksi file `.env` bocor
+- 🧠 Pemeriksaan keamanan header HTTP
+- 📦 Simpan hasil dalam format `.txt` dan `.json`
+
+---
 
 ## 🚀 Instalasi
 
-📦 Dependencies:
-Install dulu yang diperlukan:
+### 1. Clone Repositori
 
 ```bash
-pip install requests urllib3 colorama
-
-
-
-```bash
-git clone https://github.com/username/SendaLINT.git
-cd SendaLINT
-pip install -r requirements.txt
-
+git clone https://github.com/sendaljepitid/sendalint.git
+cd sendalint
