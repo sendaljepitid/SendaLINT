@@ -139,7 +139,7 @@ Budi Wibowo - [LinkedIn]([https://www.linkedin.com/in/budiwibowo-/])
 
 ---
 ## jika error muncul
-~/sendalint# python3 sendalint.py  --url http://testphp.vulnweb.com/index.php
+
 Traceback (most recent call last):
   File "/root/sendalint/sendalint.py", line 5, in <module>
     from tqdm import tqdm
