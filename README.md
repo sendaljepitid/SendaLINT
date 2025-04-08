@@ -138,6 +138,24 @@ Pull request sangat diterima! Jika kamu punya saran fitur baru atau ingin menamb
 Budi Wibowo - [LinkedIn]([https://www.linkedin.com/in/budiwibowo-/])
 
 ---
+## jika error muncul
+~/sendalint# python3 sendalint.py  --url http://testphp.vulnweb.com/index.php
+Traceback (most recent call last):
+  File "/root/sendalint/sendalint.py", line 5, in <module>
+    from tqdm import tqdm
+ModuleNotFoundError: No module named 'tqdm'
+
+✅ Opsi 1: Install via APT (cara direkomendasikan)
+Karena kamu hanya butuh tqdm, install langsung lewat APT:
+
+```bash
+sudo apt update
+sudo apt install python3-tqdm
+
+```
+
+---
+
 
 ## 📜 License
 
