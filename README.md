@@ -159,7 +159,7 @@ sudo apt install python3-tqdm
 
 ## 📜 License
 
-MIT License – bebas digunakan, mohon sertakan atribusi jika dibagikan ulang.
+MIT License – bebas digunakan, mohon sertakan atribusi jika dibagikan ulang..
 ```
 
 ---
